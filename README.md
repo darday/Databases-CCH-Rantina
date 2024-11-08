@@ -1,5 +1,8 @@
 # Databases-CCH-Rantina
 
+# En la carpeta Backups se sube el backup ´revio a la actualización del sistema
+# En la carpeta DB_Version se sube la base de datos backup con los nuevos campos que necesita para funcionar.
+
 ## llena la base camping_dev con data de la base campingprodu 
 
 #Borrar la base dev que está en localhost
