@@ -1,5 +1,8 @@
 # Databases-CCH-Rantina
 
+# En la carpeta Backups se sube el backup previo a la actualización del sistema
+# En la carpeta DB_Version se sube la base de datos backup con los nuevos campos que necesita para funcionar
+
 ## llena la base camping_dev con data de la base campingprodu 
 
 #Borrar la base dev que está en localhost
@@ -8,7 +11,7 @@
 #ejecutar seed de producción
 
 
-INSERT INTO camping_backup.equipment SELECT * FROM campingprodu.equipment
+INSERT INTO camping_dev.equipment SELECT * FROM db_backup.equipment
 
 INSERT INTO camping_backup.equipment_rents SELECT * FROM campingprodu.equipment_rents;
 
